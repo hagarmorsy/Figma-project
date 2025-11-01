@@ -228,4 +228,35 @@ body {
     font-size:20px;
     color: #F0C932;
     display:block; 
-    margin-bottom:6px; }
+    margin-bottom:6px; 
+}
+@media (max-width: 768px) {
+  .first-inner, .selected-inner {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .first-left, .first-right, .selected-left, .selected-right {
+    flex: 1 1 100%;
+    width: 100%;
+  }
+  .first-left {
+    padding: 25px 15px;
+    background: #eef0ff;
+    border-radius: 10px;
+  }
+  .first-left h1 { font-size: 32px; }
+  .image-wrap, .selected-image-wrap {
+    width: 220px; height: 220px;
+  }
+  .first-student, .selected-img {
+    width: 200px; height: 200px;
+  }
+  .selected-right {
+    text-align: center;
+  }
+  .selected-right .sub { margin: 0 auto 18px auto; }
+  .stats {
+    justify-content: center;
+  }
+  .stats div strong { font-size: 18px; }
+}
