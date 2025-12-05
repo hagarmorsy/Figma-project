@@ -50,15 +50,15 @@ body {
     max-width:480px; 
     margin-bottom:20px; }
 .first-left {
-  background:transparent; 
+  /*background:transparent;*/ 
   padding:20px 22px;
   border-radius:8px;
-  box-shadow: 0 6px 18px rgba(22,24,36,0.03);
+  /*box-shadow: 0 6px 18px rgba(22,24,36,0.03);*/
 }
 
 .actions { 
     display:flex; 
-    gap:12px; 
+    gap:20px; 
     align-items:center; }
 .primary{
         background: #545BE8;
@@ -71,16 +71,16 @@ body {
         border: none;
         padding: 12px 24px;
     }
-.ghost {
+/*.ghost {
     background: #f2f4fb;
     border: none;
     cursor: pointer;
-}
+}*/
 
 .image-wrap {
   position:relative;
-  width:320px;
-  height:320px;
+  width:370px;
+  height:370px;
   display:flex; 
   align-items:center; 
   justify-content:center;
